@@ -1,0 +1,16 @@
+display_information:
+  name: Slack Emoji Exporter
+  description: ワークスペースのカスタム絵文字一覧を読み取ります
+  background_color: "#4A154B"
+features:
+  bot_user:
+    display_name: Slack Emoji Exporter
+    always_online: false
+oauth_config:
+  scopes:
+    bot:
+      - emoji:read
+settings:
+  org_deploy_enabled: false
+  socket_mode_enabled: false
+  token_rotation_enabled: false

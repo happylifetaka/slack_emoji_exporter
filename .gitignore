@@ -1,0 +1,6 @@
+.DS_Store
+.env
+exported-emoji/
+*.log
+bin/
+coverage.out
